@@ -10,14 +10,14 @@ local function loadMainScript()
     end
     waitForGameToLoad()
  
-    local scriptUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/SystemV9.lua"
+    local scriptUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/SystemV10.lua"
     loadstring(game:HttpGet(scriptUrl))()
 end
 local function setupAutoExecuteOnTeleport()
     local queueOnTeleport = syn and syn.queue_on_teleport or queue_on_teleport or queueonteleport
  
     if queueOnTeleport then
-        local autoLoaderUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/reuseV6.lua"
+        local autoLoaderUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/reuseV7.lua"
         local autoLoaderScript = string.format('loadstring(game:HttpGet("%s"))()', autoLoaderUrl)
  
         pcall(function()
