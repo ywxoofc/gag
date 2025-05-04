@@ -10,7 +10,7 @@ local function loadMainScript()
     end
     waitForGameToLoad()
  
-    local scriptUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/SystemV15.lua"
+    local scriptUrl = "https://raw.githubusercontent.com/ywxoofc/gag/refs/heads/main/SystemV16.lua"
     loadstring(game:HttpGet(scriptUrl))()
 end
 local function setupAutoExecuteOnTeleport()
